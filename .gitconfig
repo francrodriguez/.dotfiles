@@ -1,0 +1,10 @@
+[user]
+	name = Franc Rodriguez
+	email = franc@tecob.com
+[alias]
+	lg = log --graph --decorate --date-order
+	st = status
+	c = !git add -A && git commit
+	reset-permissions = !git diff -p -R --no-color | grep -E \"^(diff|(old|new) mode)\" --color=newer | git apply
+[init]
+	defaultBranch = main

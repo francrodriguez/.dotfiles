@@ -10,10 +10,6 @@ super + Return
 super + d
 	rofi -show run
 
-# program launcher
-super + k
-	rofi -show window
-
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
@@ -59,7 +55,8 @@ super + {t,shift + t,s,f}
 #
 
 # focus the node in the given direction
-super + {_,shift + }{Left,Down,Up,Right}
+super + {_,shift + }{h,j,k,l}
+#super + {_,shift + }{Left,Down,Up,Right}
 	bspc node -{f,s} {west,south,north,east}
 
 # focus the node for the given path jump
@@ -142,7 +139,7 @@ super + shift + s
 # Block screen
 
 super + ctrl + l
-	i3lock -k --color 204060 
+	i3lock -c 000000
 
 # Shutdown System
 super + ctrl + alt + 0

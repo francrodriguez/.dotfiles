@@ -63,7 +63,7 @@ font-2 = siji:pixelsize=10;1
 font-3 = Hack Nerd Font Mono:pixelsize=15;2
 
 modules-left = bspwm
-modules-center = xwindow 
+modules-center = 
 modules-right =  xkeyboard pulseaudio date
 #modules-right = cpu memory filesystem pulseaudio wlan wifi ethernet vpn ipinternet country battery date
 

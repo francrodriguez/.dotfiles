@@ -1,4 +1,4 @@
-background_opacity: 1
+window_opacity: 1
 env:
   TERM: xterm-256color
 
