@@ -106,5 +106,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 # Cargamos alias personales y variables de entorno
-source ~/.dotfiles/.config/alias
-source ~/.dotfiles/.config/env
+source ~/.dotfiles/alias
+source ~/.dotfiles/env
