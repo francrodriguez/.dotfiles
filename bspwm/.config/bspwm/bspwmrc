@@ -9,9 +9,10 @@ xset r rate 220 40
 #if [ -x $HOME/.config/bin/dual_monitor.sh ];then
 #	    $HOME/.config/bin/dual_monitor.sh
 #fi
-xrandr --output DisplayPort-0 --primary --mode 1920x1080 --rotate normal --output HDMI-A-0 --right-of DisplayPort-0 --mode 1280x800 --rotate right
+#xrandr --output DisplayPort-0 --primary --mode 1920x1080 --rotate normal --output HDMI-A-0 --right-of DisplayPort-0 --mode 1280x800 --rotate right
+xrandr --output DisplayPort-0 --primary --mode 1920x1080 --rotate normal --output HDMI-A-0 --right-of DisplayPort-0 --mode 1280x800 --rotate normal
 bspc monitor DisplayPort-0 -d 1 2 3 4 5 6
-bspc monitor HDMI-A-0 -d 7 8 
+bspc monitor HDMI-A-0 -d 7 8
 
 setxkbmap es
 xset r rate 220 40
