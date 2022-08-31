@@ -1,0 +1,3 @@
+[submodule "tecob"]
+	path = tecob
+	url = git@git.tecob.com:franc/dotfiles.git
